@@ -1,0 +1,16 @@
+# Core data science libraries
+pandas==2.0.3
+numpy==1.24.3
+matplotlib==3.8.0
+
+# Time series analysis
+prophet==1.1.1
+
+# Geocoding
+geopy==2.0.0
+
+# Clustering
+hdbscan==0.8.29
+
+# Optional for web integration
+flask==2.3.3

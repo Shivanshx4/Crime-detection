@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_82d6d79f9e6cbb138afb65994d7ca9be {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_82d6d79f9e6cbb138afb65994d7ca9be" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_82d6d79f9e6cbb138afb65994d7ca9be = L.map(
+                "map_82d6d79f9e6cbb138afb65994d7ca9be",
+                {
+                    center: [28.6448, 77.2167],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 11,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_f63520833560e82356f8359a05d737bc = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_f63520833560e82356f8359a05d737bc.addTo(map_82d6d79f9e6cbb138afb65994d7ca9be);
+        
+    
+            var circle_marker_8e1c552388b29dd3cdacc6a120555b9d = L.circleMarker(
+                [28.6353, 77.2221],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_82d6d79f9e6cbb138afb65994d7ca9be);
+        
+    
+        var popup_d29efe6eae44d7da1ffb3e1085855db5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0302f28aa6c5607638434db577024103 = $(`<div id="html_0302f28aa6c5607638434db577024103" style="width: 100.0%; height: 100.0%;">DELHI CANTT: 11.29</div>`)[0];
+                popup_d29efe6eae44d7da1ffb3e1085855db5.setContent(html_0302f28aa6c5607638434db577024103);
+            
+        
+
+        circle_marker_8e1c552388b29dd3cdacc6a120555b9d.bindPopup(popup_d29efe6eae44d7da1ffb3e1085855db5)
+        ;
+
+        
+    
+    
+            var circle_marker_d95ffe423d523107ee29a6f3289766c4 = L.circleMarker(
+                [28.6815, 77.2411],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_82d6d79f9e6cbb138afb65994d7ca9be);
+        
+    
+        var popup_32edd1ddff3cd31805db5da8401f43a5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3fdb115b61d370ff1fa0b78ec3bfc9ac = $(`<div id="html_3fdb115b61d370ff1fa0b78ec3bfc9ac" style="width: 100.0%; height: 100.0%;">GANDHI NAGAR: 6.30</div>`)[0];
+                popup_32edd1ddff3cd31805db5da8401f43a5.setContent(html_3fdb115b61d370ff1fa0b78ec3bfc9ac);
+            
+        
+
+        circle_marker_d95ffe423d523107ee29a6f3289766c4.bindPopup(popup_32edd1ddff3cd31805db5da8401f43a5)
+        ;
+
+        
+    
+    
+            var circle_marker_fb5a79e345cdbebb3250f86cc995229b = L.circleMarker(
+                [28.6618, 77.3258],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_82d6d79f9e6cbb138afb65994d7ca9be);
+        
+    
+        var popup_5eec3f10725dd225eeaeaa2a6a79fefa = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8848949b856860e9af7f411532b7f705 = $(`<div id="html_8848949b856860e9af7f411532b7f705" style="width: 100.0%; height: 100.0%;">KALYANPURI: 10.44</div>`)[0];
+                popup_5eec3f10725dd225eeaeaa2a6a79fefa.setContent(html_8848949b856860e9af7f411532b7f705);
+            
+        
+
+        circle_marker_fb5a79e345cdbebb3250f86cc995229b.bindPopup(popup_5eec3f10725dd225eeaeaa2a6a79fefa)
+        ;
+
+        
+    
+    
+            var circle_marker_46563a20ec11bd876a9c5f5234ea3cb3 = L.circleMarker(
+                [28.5815, 77.3142],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_82d6d79f9e6cbb138afb65994d7ca9be);
+        
+    
+        var popup_0b2b28351b9894a96236a857fa8083ac = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8cc92091bcf7cfe39165bed205843598 = $(`<div id="html_8cc92091bcf7cfe39165bed205843598" style="width: 100.0%; height: 100.0%;">MAYURVIHAR: 7.35</div>`)[0];
+                popup_0b2b28351b9894a96236a857fa8083ac.setContent(html_8cc92091bcf7cfe39165bed205843598);
+            
+        
+
+        circle_marker_46563a20ec11bd876a9c5f5234ea3cb3.bindPopup(popup_0b2b28351b9894a96236a857fa8083ac)
+        ;
+
+        
+    
+    
+            var circle_marker_8d2deb37a4992e9b19488c8f2d794dd2 = L.circleMarker(
+                [28.5467, 77.093],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_82d6d79f9e6cbb138afb65994d7ca9be);
+        
+    
+        var popup_f8c773b9deeedf5c70fca1a14298f603 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e165de5b5c11e0f9a1df6f303de8721c = $(`<div id="html_e165de5b5c11e0f9a1df6f303de8721c" style="width: 100.0%; height: 100.0%;">NAJAFGARH: 9.44</div>`)[0];
+                popup_f8c773b9deeedf5c70fca1a14298f603.setContent(html_e165de5b5c11e0f9a1df6f303de8721c);
+            
+        
+
+        circle_marker_8d2deb37a4992e9b19488c8f2d794dd2.bindPopup(popup_f8c773b9deeedf5c70fca1a14298f603)
+        ;
+
+        
+    
+    
+            var circle_marker_d3daf76b2858c4911754f4b42b3d9b13 = L.circleMarker(
+                [28.641, 77.1018],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_82d6d79f9e6cbb138afb65994d7ca9be);
+        
+    
+        var popup_8b9c9436890194df1162f1ac5f995a84 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ee15acb89881ef5d214e1d96caa8dd92 = $(`<div id="html_ee15acb89881ef5d214e1d96caa8dd92" style="width: 100.0%; height: 100.0%;">PASCHIM VIHAR: 5.08</div>`)[0];
+                popup_8b9c9436890194df1162f1ac5f995a84.setContent(html_ee15acb89881ef5d214e1d96caa8dd92);
+            
+        
+
+        circle_marker_d3daf76b2858c4911754f4b42b3d9b13.bindPopup(popup_8b9c9436890194df1162f1ac5f995a84)
+        ;
+
+        
+    
+    
+            var circle_marker_6ceec15dbe63cc5244aebb353e5de52e = L.circleMarker(
+                [28.5245, 77.3145],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_82d6d79f9e6cbb138afb65994d7ca9be);
+        
+    
+        var popup_c0b9760fd781beb0defd4e3b12d72538 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_40d8e42f32235c019f05f3e50b443e8a = $(`<div id="html_40d8e42f32235c019f05f3e50b443e8a" style="width: 100.0%; height: 100.0%;">SARITA VIHAR: 8.47</div>`)[0];
+                popup_c0b9760fd781beb0defd4e3b12d72538.setContent(html_40d8e42f32235c019f05f3e50b443e8a);
+            
+        
+
+        circle_marker_6ceec15dbe63cc5244aebb353e5de52e.bindPopup(popup_c0b9760fd781beb0defd4e3b12d72538)
+        ;
+
+        
+    
+</script>
+</html>
